@@ -1,0 +1,259 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    flex: 1;
+    margin: 0;
+}
+
+.navbar-brand {
+    margin-right: auto;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.custom-navbar {
+    background-color: #08253F !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd !important;
+}
+
+h1,
+h5 {
+    font-weight: bold;
+    color: #08253F;
+}
+
+p,
+.faq-answer {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #08253F;
+}
+
+[data-aos] {
+    transition: transform 0.4s, opacity 0.4s;
+}
+
+button,
+.btn,
+a {
+    transition: all 0.3s;
+}
+
+button:hover,
+.btn:hover,
+a:hover {
+    opacity: 0.9;
+}
+
+.faq-question,
+.faq-answer,
+.card-body {
+    color: #08253F !important;
+    white-space: nowrap;
+}
+
+.faq-answer {
+    color: #333;
+}
+
+.btn-square {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #08253F;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.btn-square:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 576px) {
+    .btn-square {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.message-initial {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(51, 51, 51, 0.9);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    z-index: 9999;
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+}
+
+.message-initial:hover {
+    opacity: 1;
+}
+
+.message-initial button:hover {
+    background-color: #5753cd;
+}
+
+.message-initial button {
+    background-color: #2925b6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.linkedin-btn,
+.github-btn {
+    position: fixed;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+}
+
+.linkedin-btn {
+    bottom: 100px;
+    background-color: #0077B5;
+    color: #fff;
+}
+
+.github-btn {
+    bottom: 100px;
+    background-color: #131212;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.linkedin-btn:hover,
+.github-btn:hover {
+    opacity: 0.8;
+}
+
+.section-blue {
+    background-color: #08253F;
+    color: #fff;
+    padding: 50px;
+    text-align: left;
+    min-height: 600px; /* Alterado para min-height */
+}
+
+.section-blue p {
+    color: #fff;
+}
+
+.section-gray {
+    background-color: #E9E9E9;
+    color: #fff;
+    padding: 100px;
+}
+
+.section-white {
+    background-color: #fff;
+    color: #000;
+    padding: 100px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card {
+    max-width: 300px;
+    width: 100%;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    border: none;
+}
+
+.project-card .card-body {
+    color: #08253F !important;
+    overflow-y: auto;
+    white-space: normal;
+}
+
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    color: #08253F;
+}
+
+.card-body {
+    height: 100%; /* Define a altura do card body */
+    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se o conteúdo do card for maior que o espaço disponível */
+}
+
+.card-text {
+    white-space: normal; /* Garante que o texto quebre linhas conforme necessário */
+    color: #555;
+}
+
+.centralized-title {
+    text-align: center;
+    color: #08253F;
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler-icon {
+        background-color: #08253F;
+    }
+    .navbar-collapse {
+        background-color: #08253F;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-link {
+        padding: 10px;
+        color: #fff !important;
+    }
+}
+
+.custom-card {
+    width: 300px;
+    height: 400px;
+}

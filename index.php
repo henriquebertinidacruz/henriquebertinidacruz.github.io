@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Bertini da Cruz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" type="image/png" href="images/logo-icon-for-website.ico">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar" style="box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);">
+    <a class="navbar-brand" style="color: #ffffff" href="index.html">Henrique Bertini da Cruz</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.php">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#archives">Archives</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#articles">Articles</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="section-blue">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>Software Developer</h2>
+                <div class="developer-info">
+                    <p>Fullstack developer specialized in automation of manufacturing processes through integrated software solutions. Experienced in the .NET ecosystem for Desktop, Web, and Mobile development. Proficient in .NET Framework, OOP, AWS SNS and SQS, MySQL, SQL Server, JavaScript, PHP, and C#.NET. Collaborated in multicultural teams on international projects, focusing on excellence and innovation for process optimization in Smart Manufacturing.</p>
+                </div>
+                <div class="developer-info">
+                    Know more about me at:
+                    <a href="https://www.linkedin.com/in/henriquebertinidacruz/" target="_blank">
+                        <i class="fab fa-linkedin"></i> Henrique Bertini
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="images/programmer.png" class="img-fluid mx-auto" alt="Developer Image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-gray">
+    <div class="container">
+        <h2 class="text-left mb-5" style="color: #08253F;">Projects</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-text" style="color: #000000">Industrial Process Control</h5>
+                        <p class="card-text">System to optimize industrial process management, including precise monitoring, workflow optimization, system integration, and performance analysis.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #08253F">Go to project!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-text" style="color: #000000">Industrial Manufacturing Automation</h5>
+                        <p class="card-text">System for efficient management of industrial processes, with emphasis on real-time monitoring, continuous optimization, system integration, and performance analysis.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #08253F">Go to project!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-text" style="color: #000000">Industrial Production Control</h5>
+                        <p class="card-text">Comprehensive system to optimize industrial process management, with advanced monitoring, team management, inventory control, and operational analysis.</p>
+                        <a href="#" class="btn btn-primary" style="background-color: #08253F">Go to project!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-white">
+    <div class="container">
+        <h2 class="left-title">Skills</h2>
+        <div class="row">
+            <div class="col-md-4 my-4">
+                <div class="card">
+                    <i class="bi bi-code-slash fs-2 text-primary"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">.NET Framework</h5>
+                        <p class="card-text">Experienced in the .NET ecosystem for Desktop, Web, and Mobile development. Worked on various projects using .NET technologies, including desktop application development with Windows Forms and WPF, web development with ASP.NET MVC and ASP.NET Core, and mobile development with Xamarin.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-4">
+                <div class="card">
+                    <i class="bi bi-javascript fs-2 text-primary"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Proficient in JavaScript for interactive web solutions development. Experienced in building dynamic and responsive web applications using JavaScript, jQuery, React.js, and other related libraries and frameworks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-4">
+                <div class="card">
+                    <i class="bi bi-database fs-2 text-primary"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">MySQL and SQL Server</h5>
+                        <p class="card-text">Experience in working with MySQL and SQL Server databases. Developed and maintained relational databases in production environments, optimizing SQL queries, designing efficient database schemas, and ensuring data integrity. Deep knowledge in data modeling and database administration.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-gray" id="archive">
+    <div class="container">
+        <h2 class="text-left mb-4" style="color: #08253F">Archives of my projects</h2>
+        <table class="table table-responsive">
+            <thead>
+            <tr>
+                <th>Year</th>
+                <th>Title</th>
+                <th>Made in</th>
+                <th>Built with</th>
+                <th>Type</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2024</td>
+                <td>estudo-web-api-openweathermap</td>
+                <td>Github</td>
+                <td>HTML, CSS, JavaScript, Bootstrap + API: OpenWeatherMap</td>
+                <td>Open Source</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>henriquebertinidacruz.github.io</td>
+                <td>Github</td>
+                <td>HTML, CSS, JavaScript</td>
+                <td>Open Source</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>trysystems-mydriver</td>
+                <td>Github</td>
+                <td>HTML, CSS, JavaScript, PHP, SQLite</td>
+                <td>Open Source</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>trysystems-landing-page</td>
+                <td>Github</td>
+                <td>HTML, CSS, JavaScript, Bootstrap</td>
+                <td>Open Source</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section class="section-white" style="background-color: #f5f5f5; padding: 20px;">
+    <div class="container">
+        <h2 style="color: #08253F; text-align: center; font-size: 24px; margin-bottom: 20px;">Henrique Bertini Blog</h2>
+        <p style="text-align: center; margin-bottom: 30px;">Explore my blog on Medium to find interesting articles about software development!</p>
+        <div style="text-align: center;">
+            <a href="https://seublog.medium.com" target="_blank" style="display: inline-block; background-color: #08253F; color: #ffffff; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Visit my Blog on Medium</a>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>

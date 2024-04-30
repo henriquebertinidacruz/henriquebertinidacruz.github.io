@@ -8,3 +8,8 @@ window.onload = function() {
         document.getElementById('message-initial').style.display = 'block';
     }
 };
+
+document.addEventListener("DOMContentLoaded", function() {
+    var section = document.querySelector('.section-blue');
+    section.classList.add('show-section');
+});
