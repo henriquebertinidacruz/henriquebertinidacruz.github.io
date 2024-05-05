@@ -23,7 +23,7 @@ body {
 
 .custom-navbar {
     background-color: #08253F !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-nav .nav-link {
@@ -170,7 +170,7 @@ a:hover {
     color: #fff;
     padding: 50px;
     text-align: left;
-    min-height: 600px; /* Alterado para min-height */
+    min-height: 600px;
 }
 
 .section-blue p {
@@ -219,12 +219,12 @@ a:hover {
 }
 
 .card-body {
-    height: 100%; /* Define a altura do card body */
-    overflow-y: auto; /* Adiciona uma barra de rolagem vertical se o conteúdo do card for maior que o espaço disponível */
+    height: 100%;
+    overflow-y: auto;
 }
 
 .card-text {
-    white-space: normal; /* Garante que o texto quebre linhas conforme necessário */
+    white-space: normal;
     color: #555;
 }
 
@@ -256,4 +256,17 @@ a:hover {
 .custom-card {
     width: 300px;
     height: 400px;
+}
+
+h2{
+    margin-top: 30px;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
